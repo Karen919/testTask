@@ -17,6 +17,10 @@ const server = http.createServer((req, res) => {
   // Обработка других запросов
 });
 
-server.listen(3000, () => {
+// server.listen(3000, () => {
+//   console.log('Proxy server listening on port 3000');
+// });
+
+server.listen(process.env.PORT || 3000, () => {
   console.log('Proxy server listening on port 3000');
 });

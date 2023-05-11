@@ -1,7 +1,7 @@
 {
   "name": "testtask",
   "proxy": "https://cloud.codesupply.co",
-  "homepage": "https://Karen919.github.io",
+  "homepage": "https://test-task-bice-one.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
