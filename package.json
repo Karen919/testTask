@@ -1,7 +1,7 @@
 {
   "name": "testtask",
   "proxy": "https://cloud.codesupply.co",
-  "homepage": "https://test-task-bice-one.vercel.app/",
+  "homepage": "https://Karen919.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "cors-anywhere": "^0.4.4",
+    "gh-pages": "^5.0.0",
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,11 +18,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +43,4 @@
       "last 1 safari version"
     ]
   }
-
 }
