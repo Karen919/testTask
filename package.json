@@ -1,6 +1,7 @@
 {
   "name": "testtask",
   "homepage": "https://test-task-bice-one.vercel.app/",
+  "proxy": "https://cloud.codesupply.co/endpoint/react/data.json",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
