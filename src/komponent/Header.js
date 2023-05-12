@@ -1,9 +1,9 @@
 
 function Header() {
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    header.classNameList.toggle("sticky", window.scrollY > 200);
-  });
+  // window.addEventListener("scroll", function () {
+  //   const header = document.querySelector(".header");
+  //   header.classNameList.toggle("sticky", window.scrollY > 200);
+  // });
   
     return (
       <div className="header_conteiner">

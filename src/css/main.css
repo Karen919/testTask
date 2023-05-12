@@ -1,0 +1,41 @@
+.cards_ul {
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cards_ul>li {
+    margin-left: 40px;
+    margin-bottom: 48px;
+    width: 360px;
+    cursor: pointer;
+}
+
+.main_tags {
+    color: #EB0028;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 13px;
+}
+
+.main_text {
+    color: #929292;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main_date_views {
+    color: #9B9B9B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+}
