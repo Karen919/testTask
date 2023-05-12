@@ -30,10 +30,12 @@ function Main() {
         setPopupContentText(value.text);
         popupRef.current.style.display = 'block';
       }}>
-        <picture>
+        {/* <picture>
           <source srcSet={value.img} media="(max-width: 768px)" />
           <img src={value.img_2x} srcSet={value.img} alt="An image" />
-        </picture>
+        </picture> */}
+     <img src={value.img}  alt="An image" />
+
         <p className='main_tags'>{value.tags}</p>
         <h1>{value.title}</h1>
         <span>{value.autor}</span>
