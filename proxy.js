@@ -14,7 +14,6 @@ const server = http.createServer((req, res) => {
     return proxy(req, res);
   }
 
-  // Обработка других запросов
 });
 
 // server.listen(3000, () => {
