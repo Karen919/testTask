@@ -5,7 +5,7 @@ function Main() {
     const [cards, setCards] = useState([])
 
     useEffect(() => {
-        fetch('/endpoint/react/data.json')
+        fetch('https://cloud.codesupply.co/endpoint/react/data.json')
             .then(response => response.json())
             .then(data => {
                 setData(data);
