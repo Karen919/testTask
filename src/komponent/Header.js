@@ -7,7 +7,6 @@ function Header() {
   
     return (
       <div className="header_conteiner">
-        <span className="material-symbols-outlined search">search</span>      
         <header className="header">
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
