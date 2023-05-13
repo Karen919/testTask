@@ -11,7 +11,7 @@ function Main() {
   const popupRef = useRef(null);
 
   useEffect(() => {
-    fetch('https://cors-anywhere.herokuapp.com/https://cloud.codesupply.co/endpoint/react/data.json')
+    fetch('https://raw.githubusercontent.com/Karen919/new/main/data.json')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error(error));
@@ -30,12 +30,10 @@ function Main() {
         setPopupContentText(value.text);
         popupRef.current.style.display = 'block';
       }}>
-        {/* <picture>
+        <picture>
           <source srcSet={value.img} media="(max-width: 768px)" />
           <img src={value.img_2x} srcSet={value.img} alt="An image" />
-        </picture> */}
-     <img src={value.img}  alt="An image" />
-
+        </picture>
         <p className='main_tags'>{value.tags}</p>
         <h1>{value.title}</h1>
         <span>{value.autor}</span>
@@ -83,3 +81,6 @@ function Main() {
 }
 
 export default Main;
+
+
+
