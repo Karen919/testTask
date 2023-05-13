@@ -9,6 +9,7 @@ function Main() {
   const [popupContentText, setPopupContentText] = useState('');
   const [searchText, setSearchText] = useState('');
   const popupRef = useRef(null);
+  const searchRef = useRef(null)
 
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/Karen919/new/main/data.json')
@@ -61,11 +62,30 @@ function Main() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+ function searchClick() {
+
+  const mediaQueryList = window.matchMedia('(max-width: 768px)');
+mediaQueryList.addEventListener('change', event => {
+  if (event.matches) {
+    // Ширина экрана меньше 768 пикселей
+    searchRef.current.classList.toggle('none');
+
+
+  } else {
+    // Ширина экрана больше или равна 768 пикселям
+    searchRef.current.classList.toggle('inline');
+
+  }
+});
+
+
+ } 
+
   return (
     <div>
         <div className='search'>
-        <span className="material-symbols-outlined search_icon">search</span> 
-        <input type="text" placeholder="Search posts" value={searchText} onChange={e => setSearchText(e.target.value)} className='search_input'/>
+        <span className="material-symbols-outlined search_icon" ref={searchRef} onClick={searchClick}>search</span> 
+        <input type="text" placeholder="Search posts" value={searchText} onChange={e => setSearchText(e.target.value)} ref={searchRef} className='search_input'/>
 
         </div>
       <ul className='cards_ul'>

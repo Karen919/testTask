@@ -15,6 +15,19 @@
     padding-left: 10px;
 }
 
+@media (max-width:768px) {
+    .search_input {
+        display: none;
+    }
+}
+
+.none {
+    display: none;
+}
+.inline {
+    display: inline;
+}
+
 .search {
     position: absolute;
     z-index: 5;
