@@ -1,0 +1,30 @@
+.manu_intro {
+    padding: 1rem 0 1rem 1.25rem;
+    border-top: 0.0625rem solid #E9E9E9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.manu_intro_taxt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu { 
+    display: none;
+    background-color: #FFFFFF;
+}
+.menu_click {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 51.5625rem; 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 1.3375rem;
+    padding-bottom: 1.25rem;
+    height: 56.5625rem;
+}

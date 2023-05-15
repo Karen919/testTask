@@ -1,0 +1,59 @@
+
+.menu_icon {
+    cursor: pointer;
+    position: absolute;
+    width: 23px; 
+    height: 1.23px;
+    left: 21px;
+    top: 39.38px;
+}
+
+.menu_icon .navicon {
+    background: #000000;
+    display: block;
+    height: 3px;
+    position: relative;
+    transform: var(--menuIconScale);
+    transition: var(--transition);
+    width: 25px;
+}
+
+.menu_icon .navicon:before,
+.menu_icon .navicon:after {
+    background: #000000;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: var(--transition);
+    width: 100%;
+}
+
+.menu_icon .navicon:before {
+    top: 5px;
+}
+
+.menu_icon .navicon:after {
+    top: -5px;
+}
+
+.menu_btn {
+    display: none;
+}
+
+.menu_btn:checked ~ .menu_icon .navicon {
+    background: transparent;
+}
+
+.menu_btn:checked ~ .menu_icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.menu_btn:checked ~ .menu_icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.menu_btn:checked ~ .menu_icon:not(.steps) .navicon:before,
+.menu_btn:checked ~ .menu_icon:not(.steps) .navicon:after {
+    top: 0;
+}

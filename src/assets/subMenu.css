@@ -1,0 +1,21 @@
+.sub_menu {
+    display: none;
+    background: #FFFFFF;
+    border: var(--border)
+}
+
+li:hover .sub_menu {
+    position: initial;
+    display: block;
+    cursor: pointer;
+    padding: 1.25rem;
+}
+
+.sub_menu>li {
+    display: flex;
+    justify-content: space-between;
+    width: 8.4375rem;
+    border-bottom: var(--border);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}

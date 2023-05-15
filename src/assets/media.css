@@ -1,0 +1,136 @@
+@media (min-width: 768px ) {
+    
+    .menu { 
+        width: 100%;
+        height: 0;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+        padding-top: 1.7857rem;
+        padding-bottom: 1.7857rem;
+        border-top: var(--border);
+        border-bottom: var(--border);
+    }
+    
+    .logo {
+        position: initial;
+    }
+    
+    .manu_intro_taxt {
+        font-family: var(--fonts);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    li:hover .sub_menu {
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        padding: 1.25rem;
+    }
+    
+    .sub_menu > li {
+        display: flex;
+        justify-content: space-between;
+        width: 8.4375rem;
+        border-bottom: var(--border);
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .sub_menu_text {
+        font-family: var(--fonts);
+        font-weight: 400;
+        font-size: 0.8125rem;
+    }
+    
+    .sub_menu > li:hover .sub_menu_text {
+        margin-left: 0.5rem;
+        color: #969696;
+    }
+    
+    .sub_menu > li:hover .sub_menu_icon {
+        transform: rotate(90deg);
+    }
+    
+    .sub_menu_icon {
+        font-size: 0.625rem;
+    }
+    
+    .manu_intro {
+        font-size: 1rem;
+        margin-left: 2.0536rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu_icon {
+        display: none;
+    }
+    
+    .stycky {
+        position: sticky;
+        top: 0;
+        transition: top 0.6s ease-in-out;
+    }
+    
+    .noStycky {
+        position: initial;
+    }
+}
+
+@media (max-width:768px) {
+    .search_input {
+        display: none;
+    }
+    .card {
+        margin-top: 6rem;
+        flex-basis: calc(50% - 20px);
+    }
+    .cards_ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .popup {
+        width: 450px;
+        height: 300px;
+    }
+    
+    .popup_title {
+        font-family: 'Roboto';
+        font-size: large;
+        text-align: center;
+        color: #EB0028;
+        margin-bottom: 2rem;
+    }
+    
+    .popup_text {
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.4rem;
+    
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .cards_ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .popup {
+        width: 320px;
+        height: 350px;
+    }
+}
+
+.inline {
+    display: inline;
+}
+
