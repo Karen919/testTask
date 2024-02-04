@@ -35,7 +35,7 @@
 }
 
 .main_text {
-    color: var(--cardTxtCol);
+    color: rgba(65, 74, 72, 0.889);
     font-family: var(--fonts);
     font-weight: 400;
     font-size: 14px;
@@ -57,5 +57,10 @@
     cursor: pointer;
     margin-top: 3rem;
     flex-basis: calc(33.33% - 20px);
+}
+.cardimg{
+    width: 360px;
+    height: 200px;
+    
 }
 

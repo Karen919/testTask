@@ -1,0 +1,68 @@
+.footer {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    /* bottom: 0; */
+    width: 100%;
+    background-color: var(--cardTxtCol);
+    color: #ebe7e7; /* Цвет текста в футере */
+    padding: 10px;
+    /* text-align: center; */
+    /* font-family: 'Protest Riot', sans-serif; */
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    font-size: 1rem;
+  }
+  
+
+.footer-content {
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 3px;
+}
+
+.quick_links{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.footer_icons {
+    text-align: center;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer_icon {
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.copyright{
+    background-color: #000000;
+    color: antiquewhite;
+    padding: 3px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+
+    
+}
+.contact_info_email {
+    padding-right: 30px;
+    border-right: 3px solid rgb(255, 255, 255);
+}
+.contact_info_phone {
+    padding-left: 30px;
+}

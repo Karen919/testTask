@@ -1,9 +1,10 @@
 .manu_intro {
     padding: 1rem 0 1rem 1.25rem;
-    border-top: 0.0625rem solid #E9E9E9;
+    border-top: 0.0625rem solid #bb323200;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: var(--cardTxtCol);
 }
 
 .manu_intro_taxt {
@@ -15,7 +16,8 @@
 
 .menu { 
     display: none;
-    background-color: #FFFFFF;
+    /* background-color: ; */
+    border-top: 3px solid black;
 }
 .menu_click {
     background-color: #FFFFFF;

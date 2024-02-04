@@ -1,6 +1,6 @@
 import Header from "./header/Header";
 import Main from "./Main/Main";
-
+import Footer from "./footer/footer";
 function App() {
 
 
@@ -9,6 +9,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

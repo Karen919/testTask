@@ -4,7 +4,7 @@ import HeaderItem from "./HeaderItems";
 import React from "react";
 
 function Header() {
-  const arr = ['Demos', 'Posts', 'Features', 'Categories', 'Shop', 'Buy Now'];
+  const arr = ['О нас', 'Контакты', 'Наши Специалисты', 'Услуги'];
   const [scrollY, setScrollY] = useState(0);
   const [manuChecked, setManuChacked] = useState(true)
 
