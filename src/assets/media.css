@@ -115,19 +115,36 @@
         line-height: 1.4rem;
     
     }
-    
+    .manu_intro {
+        display: flex;
+        flex-direction: column;  
+         justify-content: flex-start;
+     }
 }
+    
+
 
 @media (max-width: 480px) {
     .cards_ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center; 
+        align-items: flex-start;
+        text-align: start;
     }
     .popup {
         width: 320px;
         height: 350px;
     }
+    .manu_intro {
+        display: flex;
+        flex-direction: column;  
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+
+
+     }
 }
 
 .inline {

@@ -1,4 +1,4 @@
-
+/* 
 .menu_icon {
     cursor: pointer;
     position: absolute;
@@ -56,4 +56,4 @@
 .menu_btn:checked ~ .menu_icon:not(.steps) .navicon:before,
 .menu_btn:checked ~ .menu_icon:not(.steps) .navicon:after {
     top: 0;
-}
+} */

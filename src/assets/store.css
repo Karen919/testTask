@@ -1,0 +1,38 @@
+.store_li {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+.store_li :hover {
+    /* border: 0.4px solid rgba(105, 105, 105, 0.368);
+    border-radius: 60px; */
+    cursor: pointer;
+
+}
+
+.store_ui {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.store_li_price {
+    font-size: x-large;
+    /* color: rgb(85, 85, 84); */
+    padding: 10px;
+    text-align: center;
+}
+
+.store_li_name{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slider {
+    width: 350px;
+}

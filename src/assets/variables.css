@@ -1,7 +1,7 @@
 :root {
     --border:  0.0625rem solid #dee3e7;
     --fonts:   'Roboto';
-    --cardTxtCol: #1f78ed;
+    --cardTxtCol: #1557ad;
     --transition: all .2s ease-out ;
     --menuIconScale: scale(1.6);
 }

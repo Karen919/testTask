@@ -7,13 +7,18 @@
     color: var(--cardTxtCol);
 }
 
-.manu_intro_taxt {
+.manu_intro_text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
 }
-
+Link {
+    text-decoration: none;
+}
 .menu { 
     display: none;
     /* background-color: ; */
